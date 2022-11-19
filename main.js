@@ -13,7 +13,7 @@ function handleSubmit(event) {
   var email = $('#email').val();
 
   var data = {
-    to: "david.schmidt382001@gmail.com",
+    to: "kristian.cervenka@gmail.com",
     subject: meno + " " + priezvisko + " - Kontaktný formulár",
     body: msg,
     from: email
