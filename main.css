@@ -1,37 +1,46 @@
-html{
+html {
   scroll-behavior: smooth;
 }
-body{
+
+body {
   background-color: #000000;
   color: #ffffff;
 }
-#about{
+
+#about {
   margin-top: 112px;
   color: #000000;
 }
-#about img{
+
+#about img {
   max-width: 300px;
 }
+
 .subheading {
   font-weight: 600;
   margin-bottom: 20px;
 }
+
 .date {
   min-width: 18rem;
 }
-nav{
+
+nav {
   background-color: #000000;
   max-width: 1920px;
   margin: 0 auto;
 }
-nav ul{
+
+nav ul {
   width: 100%;
   margin-left: 0 !important;
 }
-nav li{
+
+nav li {
   width: 12%;
 }
-nav li a{ 
+
+nav li a {
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
   background-position: 50% 100%;
@@ -41,13 +50,16 @@ nav li a{
   color: #ffffff !important;
   text-decoration: none;
 }
-.dropdown-menu{
+
+.dropdown-menu {
   background-color: #000000 !important;
-  padding: 0 100%; 
+  padding: 0 100%;
 }
-.dropdown-item{
+
+.dropdown-item {
   text-align: center !important;
 }
+
 .dropdown:hover>.dropdown-menu {
   display: block;
 }
@@ -58,122 +70,137 @@ nav li a{
 }
 
 
-nav li a:focus{
+nav li a:focus {
   outline: none !important;
 }
-nav li a:hover, .underline{
+
+nav li a:hover,
+.underline {
   background-color: #000000 !important;
   background-size: 100% 2px;
   color: #ffffff !important;
 }
-nav button{
+
+nav button {
   border-color: white !important;
 }
+
 .custom-toggler {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important ;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: rgb(255,255,255) !important;
+  border-color: rgb(255, 255, 255) !important;
 }
-nav button{
+
+nav button {
   height: 40px;
   width: 56px;
 }
-nav button:focus{
+
+nav button:focus {
   outline: 0 !important;
 }
+
 .icon-bar {
-  display:block;
+  display: block;
   margin: auto;
-  content:"";
+  content: "";
   width: 22px;
   height: 2px;
--webkit-transition: all 0.4s;
+  -webkit-transition: all 0.4s;
   transition: all 0.4s;
   color: #ffffff;
   background-color: white;
 }
+
 .icon-bar:nth-of-type(1) {
-transform: translate3d(0,2px,0) rotate(0deg);
+  transform: translate3d(0, 2px, 0) rotate(0deg);
 }
 
 .icon-bar:nth-of-type(2) {
-transform: translate3d(0,0,0) rotate(0deg);
+  transform: translate3d(0, 0, 0) rotate(0deg);
 }
 
 .icon-bar:nth-of-type(3) {
-transform: translate3d(0,-2px,0) rotate(0deg);
+  transform: translate3d(0, -2px, 0) rotate(0deg);
 }
 
 .collapsed .icon-bar:nth-of-type(1) {
-transform: translate3d(0,10px,0);
+  transform: translate3d(0, 10px, 0);
 }
 
 .collapsed .icon-bar:nth-of-type(3) {
-transform: translate3d(0,-10px,0);
+  transform: translate3d(0, -10px, 0);
 }
 
-#experience h2{
+#experience h2 {
   margin-bottom: 50px;
 }
 
-#experience .row img{
+#experience .row img {
   max-width: 100%;
 }
 
-#experience{
+#experience {
   margin-bottom: 200px;
 }
 
-.jumbotron{
+.jumbotron {
   border-radius: 40px;
 }
 
-#education{
+#education {
   margin-bottom: 200px;
 }
 
-#education .row img{
+#education .row img {
   max-width: 100%;
 }
 
-#skills{
+#skills {
   margin-bottom: 200px;
 }
 
-#skills .row img{
+#skills .row img {
   max-width: 100%;
 }
 
-#interests{
+#interests {
   margin-bottom: 200px;
 }
 
-#interests .row img{
+#interests .row img {
   max-width: 100%;
 }
 
-#contact{
+#contact {
   padding-bottom: 100px;
 }
 
-#contact h2{
+#contact h2 {
   margin-bottom: 100px;
   padding-top: 20px;
 }
-label{
+
+label {
   padding-bottom: 5px;
 }
-#contact input{
+
+#contact input {
   margin-bottom: 30px;
 }
 
-#about, #experience, #education, #skills, #interests, #contact{
+#about,
+#experience,
+#education,
+#skills,
+#interests,
+#contact {
   padding-top: 56px !important;
 }
 
-.successful{
+.successful {
   position: fixed;
   top: 56px;
   width: 100%;
@@ -181,7 +208,7 @@ label{
   display: none;
 }
 
-.failed{
+.failed {
   position: fixed;
   top: 56px;
   width: 100%;
@@ -189,14 +216,14 @@ label{
   display: none;
 }
 
-#particles-js{
+#particles-js {
   height: calc(100vh - 56px);
   margin-top: 56px;
   width: 98vw;
   position: absolute;
 }
 
-form button{
+form button {
   position: relative;
   background-color: transparent;
   background-repeat: no-repeat;
@@ -208,18 +235,21 @@ form button{
 }
 
 @media screen and (max-width: 992px) {
-  nav li{
+  nav li {
     width: 100%;
   }
 
 }
 
-@media screen and (max-width: 1200px){
-  #experience img, #skills img{
+@media screen and (max-width: 1200px) {
+
+  #experience img,
+  #skills img {
     margin-top: 50px;
   }
 
-  #education h2, #interests h2{
+  #education h2,
+  #interests h2 {
     margin-top: 50px;
   }
 }

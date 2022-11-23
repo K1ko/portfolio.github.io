@@ -29,61 +29,61 @@ function handleSubmit(event) {
     contentType: "application/json"
   })
     .done(function () {
-      $('.successful').css("display","block");
+      $('.successful').css("display", "block");
       $('#myForm').trigger("reset");
     })
-    .fail(function(error) {
-      $('.failed').css("display","block");
+    .fail(function (error) {
+      $('.failed').css("display", "block");
     });
 }
 
 
 
-$(document).ready(function() {
-  $('a[href*=\\#]').bind('click', function() {
-          var target = $(this).attr("href"); // Set the target as variable
+$(document).ready(function () {
+  $('a[href*=\\#]').bind('click', function () {
+    var target = $(this).attr("href"); // Set the target as variable
   });
 });
 
-$(window).scroll(function() {
+$(window).scroll(function () {
   var scrollDistance = $(window).scrollTop();
   // Assign active class to nav links while scolling
-  $('.page-section').each(function(i) {
-          var x = $(this).position().top;
-          if(getWidth()>= 768) {
-              y = x - 50;
-          }
-          else{
-              y = x - 256;
-          }
-          if (y <= scrollDistance) {
-                  $('nav ul a.this.underline').removeClass('underline');
-                  $('nav ul a.this').eq(i).addClass('underline');
-          }
+  $('.page-section').each(function (i) {
+    var x = $(this).position().top;
+    if (getWidth() >= 768) {
+      y = x - 50;
+    }
+    else {
+      y = x - 256;
+    }
+    if (y <= scrollDistance) {
+      $('nav ul a.this.underline').removeClass('underline');
+      $('nav ul a.this').eq(i).addClass('underline');
+    }
   });
 }).scroll();
 
 function getWidth() {
-      return Math.max(
-        document.body.scrollWidth,
-        document.documentElement.scrollWidth,
-        document.body.offsetWidth,
-        document.documentElement.offsetWidth,
-        document.documentElement.clientWidth
-      );
+  return Math.max(
+    document.body.scrollWidth,
+    document.documentElement.scrollWidth,
+    document.body.offsetWidth,
+    document.documentElement.offsetWidth,
+    document.documentElement.clientWidth
+  );
 }
 
-$(window).on('resize', function(){
-  if(getWidth() <= 750){
+$(window).on('resize', function () {
+  if (getWidth() <= 750) {
     $('nav ul li').removeClass('animated');
   }
-  else{
+  else {
     $('nav ul li').addClass('animated');
   }
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-  if(getWidth() <= 750){
+document.addEventListener('DOMContentLoaded', function () {
+  if (getWidth() <= 750) {
     $('nav ul li').removeClass('animated');
   }
 });
