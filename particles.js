@@ -1416,7 +1416,7 @@ Object.deepExtend = function (destination, source) {
   }
   return destination;
 };
-
+//requesting frame 
 window.requestAnimFrame = (function () {
   return window.requestAnimationFrame ||
     window.webkitRequestAnimationFrame ||
@@ -1427,7 +1427,7 @@ window.requestAnimFrame = (function () {
       window.setTimeout(callback, 1000 / 60);
     };
 })();
-
+ // cancel animation frame
 window.cancelRequestAnimFrame = (function () {
   return window.cancelAnimationFrame ||
     window.webkitCancelRequestAnimationFrame ||
