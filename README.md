@@ -2,8 +2,6 @@
 This is my programming portfolio vol.2 -> First one is in progresss
 `Credits to David Schmidt` ->Forked his repo
 
-Still need to update this README.md tho , looks kinda basic.
-
 # API
 ### What is an API? I am going to talk about what is an API and why is it good for.
 ## WHAT IS AN API?
