@@ -247,7 +247,8 @@ form button {
   #skills img {
     margin-top: 50px;
   }
-
+/*  #experience .row,*//*  #skills .row {*/
+/*    margin-top: 50px;*/
   #education h2,
   #interests h2 {
     margin-top: 50px;
