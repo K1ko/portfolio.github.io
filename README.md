@@ -19,4 +19,3 @@ To recapitulate `API` takes your request and tells the `system` what to do. Then
 To sum up an `API` allows different softwares talk with each-other sharing data requests and much more.
 ![IMG_5730](https://user-images.githubusercontent.com/80548418/202853610-1e52abe9-b596-4b39-9324-649b6c133baa.jpg)\
 
-
