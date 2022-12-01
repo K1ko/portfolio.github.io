@@ -72,6 +72,19 @@ function getWidth() {
     document.documentElement.clientWidth
   );
 }
+/*
+function getWidth()
+{
+  return Math.min(
+    document.body.scrollWidth,
+    document.documentElement.scrollWidth,
+    document.body.offsetHeight.width,
+    document.documentElement.offsetWidth,
+    document.documentElement.clientWidth,
+    document.documentElement.clientTop,
+    
+  );
+}*/
 
 $(window).on('resize', function () {
   if (getWidth() <= 750) {
