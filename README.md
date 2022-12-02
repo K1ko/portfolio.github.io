@@ -17,4 +17,4 @@ The waiter is the `messenger` or the `API` that takes your request or order and 
 ![IMG_5729](https://user-images.githubusercontent.com/80548418/202853608-7356f883-4e4c-4c31-9108-b8aeb0c1ba69.jpg)\
 To recapitulate `API` takes your request and tells the `system` what to do. Then the `API` delivers the response back to you.\
 To sum up an `API` allows different softwares talk with each-other sharing data requests and much more.
-![IMG_5730](https://user-images.githubusercontent.com/80548418/202853610-1e52abe9-b596-4b39-9324-649b6c133baa.jpg)\
+![IMG_5730](https://user-images.githubusercontent.com/80548418/202853610-1e52abe9-b596-4b39-9324-649b6c133baa.jpg)
